@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Home Page/p_Toestemming'))
+WebUI.click(findTestObject('Object Repository/Login/Page_Home Page/p_Toestemming'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Login/Page_Home Page/p_Consent'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Home Page/a_Sign In'))
 

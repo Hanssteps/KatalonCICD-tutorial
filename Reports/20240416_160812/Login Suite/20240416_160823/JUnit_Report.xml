@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Suite" time="87.223" tests="1" failures="0" errors="0">
+   <testsuite name="Login Suite" tests="1" failures="0" errors="0" time="87.223" skipped="0" timestamp="16-04-2024T16:08:34" hostname="hanssteps - 10.211.55.4" id="Test Suites/Login Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hanssteps\\git\\KatalonCICD-tutorial\\Reports\\20240416_160812\\Login Suite\\20240416_160823"/>
+         <property name="logFiles" value="C:\\Users\\hanssteps\\git\\KatalonCICD-tutorial\\Reports\\20240416_160812\\Login Suite\\20240416_160823\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hanssteps\\git\\KatalonCICD-tutorial\\Reports\\20240416_160812\\Login Suite\\20240416_160823\\1713276591865.png"/>
+         <property name="hostName" value="hanssteps - 10.211.55.4"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="10.211.55.4"/>
+         <property name="sessionId" value="6caff09412151b139d91abcc6c6badef"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="86.733" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[16-04-2024T16:08:35 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+16-04-2024T16:08:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+16-04-2024T16:08:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+16-04-2024T16:08:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+16-04-2024T16:08:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+16-04-2024T16:08:39 - [TEST_STEP][PASSED] - navigateToUrl("https://magento.softwaretestingboard.com/"): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+16-04-2024T16:08:40 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+16-04-2024T16:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Home Page/p_Toestemming"), OPTIONAL): Object: 'Object Repository/Login/Page_Home Page/p_Toestemming' is clicked on
+
+16-04-2024T16:09:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Moet ik voor alles toestemming geven?'])[1]/following::p[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+16-04-2024T16:09:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Login/Page_Home Page/p_Toestemming'. Try using Self-healing.
+
+16-04-2024T16:09:13 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Moet ik voor alles toestemming geven?'])[1]/following::p[3]'.
+
+16-04-2024T16:09:13 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Wat betekent gerechtvaardigd belang?'])[1]/following::p[3]'.
+
+16-04-2024T16:09:14 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='arrow_back'])[1]/preceding::p[2]'.
+
+16-04-2024T16:09:15 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/hanssteps/git/KatalonCICD-tutorial/Reports/Self-healing/Object Repository/Login/Page_Home Page/p_Toestemming_neighbor.png
+
+16-04-2024T16:09:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Login/Page_Home Page/p_Toestemming' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='arrow_back'])[1]/preceding::p[2]'.
+
+16-04-2024T16:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Home Page/p_Toestemming' is clicked on
+
+16-04-2024T16:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/Page_Home Page/p_Consent"), OPTIONAL): Unable to click on object 'Object Repository/Login/Page_Home Page/p_Consent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Home Page/p_Consent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Login.run(Login:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1713276503511.run(TempTestSuite1713276503511.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Home Page/p_Consent' located by '(.//*[normalize-space(text()) and normalize-space(.)='Do I have to consent to everything?'])[1]/following::p[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1713270181185.run(Script1713270181185.groovy:26)
+	... 16 more
+)
+
+16-04-2024T16:09:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Do I have to consent to everything?'])[1]/following::p[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+16-04-2024T16:09:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Login/Page_Home Page/p_Consent'. Try using Self-healing.
+
+16-04-2024T16:09:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Do I have to consent to everything?'])[1]/following::p[3]'.
+
+16-04-2024T16:09:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='How does legitimate interest work?'])[1]/following::p[3]'.
+
+16-04-2024T16:09:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='arrow_back'])[1]/preceding::p[2]'.
+
+16-04-2024T16:09:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Manage your data'])[1]/preceding::p[3]'.
+
+16-04-2024T16:09:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Consent']/parent::*'.
+
+16-04-2024T16:09:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//button/p'.
+
+16-04-2024T16:09:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//p[(text() = 'Consent' or . = 'Consent')]'.
+
+16-04-2024T16:09:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Consent' or . = 'Consent')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+16-04-2024T16:09:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: p.fc-button-label'. Please recheck the objects properties to make sure the desired element is located. 
+
+16-04-2024T16:09:53 - [MESSAGE][WARNING] - Unable to click on object 'Object Repository/Login/Page_Home Page/p_Consent' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login/Page_Home Page/p_Consent'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Login.run(Login:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1713276503511.run(TempTestSuite1713276503511.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login/Page_Home Page/p_Consent' located by '(.//*[normalize-space(text()) and normalize-space(.)='Do I have to consent to everything?'])[1]/following::p[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1426)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1713270181185.run(Script1713270181185.groovy:26)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\hanssteps\\git\\KatalonCICD-tutorial\\Reports\\20240416_160812\\Login Suite\\20240416_160823\\1713276591865.png]]
+
+16-04-2024T16:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Home Page/a_Sign In")): Object: 'Object Repository/Login/Page_Home Page/a_Sign In' is clicked on
+
+16-04-2024T16:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Home Page/a_Sign In' is clicked on
+
+16-04-2024T16:09:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_Customer Login/input_Email_loginusername"), "vliegnaarhans@hotmail.com"): Text 'vliegnaarhans@hotmail.com' is set on object 'Object Repository/Login/Page_Customer Login/input_Email_loginusername'
+
+16-04-2024T16:09:58 - [MESSAGE][PASSED] - Text 'vliegnaarhans@hotmail.com' is set on object 'Object Repository/Login/Page_Customer Login/input_Email_loginusername'
+
+16-04-2024T16:09:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_Customer Login/input_Password_loginpassword"), "nD40eSJ02ggIAkzrLbYCRQ=="): Text ****** has been set on object 'Object Repository/Login/Page_Customer Login/input_Password_loginpassword'
+
+16-04-2024T16:09:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Customer Login/input_Password_loginpassword'
+
+16-04-2024T16:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Login/Page_Customer Login/span_Sign In' is clicked on
+
+16-04-2024T16:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Customer Login/span_Sign In' is clicked on
+
+16-04-2024T16:10:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-04-2024T16:10:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-04-2024T16:08:34 - [TEST_SUITE][PASSED] - Login Suite: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/Page_Home Page/p_Toestemming",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Moet ik voor alles toestemming geven?\u0027])[1]/following::p[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027arrow_back\u0027])[1]/preceding::p[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240416_160812/Login Suite/20240416_160823/Object Repository/Login/Page_Home Page/p_Toestemming_neighbor.png"
+    }
+  ]
+}
