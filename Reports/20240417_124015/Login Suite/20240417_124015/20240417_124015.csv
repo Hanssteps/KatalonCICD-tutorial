@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Suite,Chrome 123.0.0.0,,,17-04-2024 12:40:30,17-04-2024 12:41:27,56.710s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 123.0.0.0,,,17-04-2024 12:40:31,17-04-2024 12:41:27,56.042s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,17-04-2024 12:40:32,17-04-2024 12:40:38,6.231s,PASSED
+"navigateToUrl(""https://magento.softwaretestingboard.com/"")",Chrome 123.0.0.0,,,17-04-2024 12:40:38,17-04-2024 12:40:41,3.030s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Home Page/p_Toestemming""), OPTIONAL)",Chrome 123.0.0.0,,,17-04-2024 12:40:41,17-04-2024 12:41:16,34.649s,PASSED
+"click(findTestObject(""Login/Page_Home Page/p_Consent""), OPTIONAL)",Chrome 123.0.0.0,,,17-04-2024 12:41:16,17-04-2024 12:41:17,0.754s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Home Page/a_Sign In""))",Chrome 123.0.0.0,,,17-04-2024 12:41:17,17-04-2024 12:41:20,3.494s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_Customer Login/input_Email_loginusername""), ""vliegnaarhans@hotmail.com"")",Chrome 123.0.0.0,,,17-04-2024 12:41:20,17-04-2024 12:41:23,2.321s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_Customer Login/input_Password_loginpassword""), ""nD40eSJ02ggIAkzrLbYCRQ=="")",Chrome 123.0.0.0,,,17-04-2024 12:41:23,17-04-2024 12:41:23,0.788s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_Customer Login/span_Sign In""))",Chrome 123.0.0.0,,,17-04-2024 12:41:23,17-04-2024 12:41:26,2.982s,PASSED
+closeBrowser(),Chrome 123.0.0.0,,,17-04-2024 12:41:26,17-04-2024 12:41:27,0.768s,PASSED
