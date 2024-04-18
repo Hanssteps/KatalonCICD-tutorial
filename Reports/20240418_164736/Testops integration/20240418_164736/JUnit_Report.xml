@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testops integration" time="22.264" tests="1" failures="0" errors="0">
+   <testsuite name="Testops integration" tests="1" failures="0" errors="0" time="22.264" skipped="0" timestamp="18-04-2024T16:47:49" hostname="hanssteps - 10.211.55.4" id="Test Suites/Testops integration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hanssteps\\git\\KatalonCICD-tutorial\\Reports\\20240418_164736\\Testops integration\\20240418_164736"/>
+         <property name="logFiles" value="C:\\Users\\hanssteps\\git\\KatalonCICD-tutorial\\Reports\\20240418_164736\\Testops integration\\20240418_164736\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="hanssteps - 10.211.55.4"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="browser" value="Chrome 123.0.0.0"/>
+         <property name="hostAddress" value="10.211.55.4"/>
+         <property name="sessionId" value="3b5a5fe7e37bd863e800791bacbdd82c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Testops integration/Testops testing" time="21.638" classname="Test Cases/Testops integration/Testops testing" status="PASSED">
+         <system-out><![CDATA[18-04-2024T16:47:50 - [TEST_CASE][PASSED] - Test Cases/Testops integration/Testops testing: Test Cases/Testops integration/Testops testing
+
+18-04-2024T16:47:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+18-04-2024T16:47:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+18-04-2024T16:47:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+18-04-2024T16:47:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+18-04-2024T16:47:54 - [TEST_STEP][PASSED] - navigateToUrl("https://magento.softwaretestingboard.com/"): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+18-04-2024T16:47:57 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+18-04-2024T16:47:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testops integration/Page_Home Page/p_Consent")): Object: 'Object Repository/Testops integration/Page_Home Page/p_Consent' is clicked on
+
+18-04-2024T16:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Testops integration/Page_Home Page/p_Consent' is clicked on
+
+18-04-2024T16:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testops integration/Page_Home Page/a_Sign In")): Object: 'Object Repository/Testops integration/Page_Home Page/a_Sign In' is clicked on
+
+18-04-2024T16:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Testops integration/Page_Home Page/a_Sign In' is clicked on
+
+18-04-2024T16:48:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Testops integration/Page_Customer Login/input_Email_loginusername"), "vliegnaarhans@hotmail.com"): Text 'vliegnaarhans@hotmail.com' is set on object 'Object Repository/Testops integration/Page_Customer Login/input_Email_loginusername'
+
+18-04-2024T16:48:02 - [MESSAGE][PASSED] - Text 'vliegnaarhans@hotmail.com' is set on object 'Object Repository/Testops integration/Page_Customer Login/input_Email_loginusername'
+
+18-04-2024T16:48:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Testops integration/Page_Customer Login/input_Password_loginpassword"), "nD40eSJ02ggIAkzrLbYCRQ=="): Text ****** has been set on object 'Object Repository/Testops integration/Page_Customer Login/input_Password_loginpassword'
+
+18-04-2024T16:48:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Testops integration/Page_Customer Login/input_Password_loginpassword'
+
+18-04-2024T16:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testops integration/Page_Customer Login/button_Sign In")): Object: 'Object Repository/Testops integration/Page_Customer Login/button_Sign In' is clicked on
+
+18-04-2024T16:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Testops integration/Page_Customer Login/button_Sign In' is clicked on
+
+18-04-2024T16:48:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testops integration/Page_Home Page/span_Shop New Yoga")): Object: 'Object Repository/Testops integration/Page_Home Page/span_Shop New Yoga' is clicked on
+
+18-04-2024T16:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Testops integration/Page_Home Page/span_Shop New Yoga' is clicked on
+
+18-04-2024T16:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testops integration/Page_New Luma Yoga Collection/div_31")): Object: 'Object Repository/Testops integration/Page_New Luma Yoga Collection/div_31' is clicked on
+
+18-04-2024T16:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Testops integration/Page_New Luma Yoga Collection/div_31' is clicked on
+
+18-04-2024T16:48:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Testops integration/Page_New Luma Yoga Collection/span_Add to Cart")): Object: 'Object Repository/Testops integration/Page_New Luma Yoga Collection/span_Add to Cart' is clicked on
+
+18-04-2024T16:48:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Testops integration/Page_New Luma Yoga Collection/span_Add to Cart' is clicked on
+
+18-04-2024T16:48:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+18-04-2024T16:48:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[18-04-2024T16:47:49 - [TEST_SUITE][PASSED] - Testops integration: Test Cases/Testops integration/Testops testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

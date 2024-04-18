@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testops integration,Chrome 123.0.0.0,,,18-04-2024 16:47:49,18-04-2024 16:48:11,22.264s,PASSED
+,,,,,,,
+Test Cases/Testops integration/Testops testing,Chrome 123.0.0.0,,,18-04-2024 16:47:50,18-04-2024 16:48:11,21.638s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,18-04-2024 16:47:51,18-04-2024 16:47:54,3.531s,PASSED
+"navigateToUrl(""https://magento.softwaretestingboard.com/"")",Chrome 123.0.0.0,,,18-04-2024 16:47:54,18-04-2024 16:47:57,2.426s,PASSED
+"click(findTestObject(""Object Repository/Testops integration/Page_Home Page/p_Consent""))",Chrome 123.0.0.0,,,18-04-2024 16:47:57,18-04-2024 16:47:58,0.928s,PASSED
+"click(findTestObject(""Object Repository/Testops integration/Page_Home Page/a_Sign In""))",Chrome 123.0.0.0,,,18-04-2024 16:47:58,18-04-2024 16:48:00,2.777s,PASSED
+"setText(findTestObject(""Object Repository/Testops integration/Page_Customer Login/input_Email_loginusername""), ""vliegnaarhans@hotmail.com"")",Chrome 123.0.0.0,,,18-04-2024 16:48:00,18-04-2024 16:48:02,1.819s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Testops integration/Page_Customer Login/input_Password_loginpassword""), ""nD40eSJ02ggIAkzrLbYCRQ=="")",Chrome 123.0.0.0,,,18-04-2024 16:48:02,18-04-2024 16:48:03,0.769s,PASSED
+"click(findTestObject(""Object Repository/Testops integration/Page_Customer Login/button_Sign In""))",Chrome 123.0.0.0,,,18-04-2024 16:48:03,18-04-2024 16:48:05,2.359s,PASSED
+"click(findTestObject(""Object Repository/Testops integration/Page_Home Page/span_Shop New Yoga""))",Chrome 123.0.0.0,,,18-04-2024 16:48:05,18-04-2024 16:48:08,2.998s,PASSED
+"click(findTestObject(""Object Repository/Testops integration/Page_New Luma Yoga Collection/div_31""))",Chrome 123.0.0.0,,,18-04-2024 16:48:08,18-04-2024 16:48:09,1.008s,PASSED
+"click(findTestObject(""Object Repository/Testops integration/Page_New Luma Yoga Collection/span_Add to Cart""))",Chrome 123.0.0.0,,,18-04-2024 16:48:09,18-04-2024 16:48:11,1.425s,PASSED
+closeBrowser(),Chrome 123.0.0.0,,,18-04-2024 16:48:11,18-04-2024 16:48:11,0.381s,PASSED
