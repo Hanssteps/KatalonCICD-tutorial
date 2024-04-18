@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://magento.softwaretestingboard.com/')
 
-WebUI.click(findTestObject('Object Repository/Testops integration/Page_Home Page/p_Consent'))
+WebUI.click(findTestObject('Object Repository/Testops integration/Page_Home Page/p_Consent'),FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Testops integration/Page_Home Page/a_Sign In'))
 
